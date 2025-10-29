@@ -32,6 +32,7 @@ export default function App() {
         country,
         temperature: weatherData.current_weather.temperature,
         windspeed: weatherData.current_weather.windspeed,
+        weathercode: weatherData.current_weather.weathercode,
       };
 
       setWeatherList([newWeather]); // or [...weatherList, newWeather] if you want multiple
